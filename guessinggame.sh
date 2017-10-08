@@ -5,7 +5,7 @@
 numberOfFiles=$(ls -1 | wc -l)
 
 function askFileCount {
-echo "How many files are in this directory? ($numberOfFiles)"
+echo "How many files are in this directory?"
 read response
 }
 echo "$response"
